@@ -1,6 +1,6 @@
 import React from 'react'
-
-import { compose, graphql } from 'react-apollo'
+import * as compose from 'lodash.flowright'
+import {  graphql } from 'react-apollo'
 import { observer } from 'mobx-react'
 import { css } from 'glamor'
 import uuid from 'uuid/v4'
